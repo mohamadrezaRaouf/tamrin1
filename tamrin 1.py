@@ -339,7 +339,7 @@ class cone(three_d):
         print('and its kind of cone')    
         
 class pyramid(three_d):
-    def __init__(self,side,,hight,around_side,side_hight):
+    def __init__(self,side,hight,around_side,side_hight):
         super().__init__()
         self.side=side
         self.hight=hight
